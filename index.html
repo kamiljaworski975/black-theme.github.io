@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>Second Website</title>
+    <meta name="description" content="Website Portfolio" />
+    <meta name="author" content="Kamil Jaworski" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="swiper.min.css" />
+    <link rel="stylesheet" href="style.css?v=1.0" />
+    <link href="./fonts/css/all.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <nav class="navigation">
+      <div class="logo">
+        <a href="#">logo</a>
+      </div>
+      <div class="nav__button" onclick="toggle()">
+        <span class="nav__icon">&nbsp;</span>
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="menu-phone">
+        <div class="texture1 texture"></div>
+        <div class="texture2 texture"></div>
+        <div class="texture3 texture"></div>
+        <div class="texture4 texture"></div>
+        <div class="logo-menu">
+          <a href="#">logo</a>
+        </div>
+        <ul>
+          <li><a onClick="goTo()" href="#about">About</a></li>
+          <li><a onClick="goTo()" href="#services">Services</a></li>
+          <li><a onClick="goTo()" href="#team">Team</a></li>
+          <li><a onClick="goTo()" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <header class="header">
+      <img src="./assets/bg.jpg" id="bg" />
+      <img src="./assets/moon.png" id="moon" />
+      <img src="./assets/mountain.png" id="mountain" />
+      <img src="./assets/road.png" id="road" />
+      <h2 id="text">Black Theme</h2>
+    </header>
+    <section class="section__info">
+      <div class="square" id="square1">
+        <span></span>
+        <span></span>
+        <span></span>
+        <div class="content">
+          <h2>Post Tittle</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque
+            iste vel suscipit officiis beatae, quaerat, laboriosam esse labore
+            nesciunt incidunt cum iusto distinctio quam, ratione delectus
+            obcaecati. At, tempore nostrum.
+          </p>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+      <div class="square" id="square2">
+        <span></span>
+        <span></span>
+        <span></span>
+        <div class="content">
+          <h2>Post Tittle</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque
+            iste vel suscipit officiis beatae, quaerat, laboriosam esse labore
+            nesciunt incidunt cum iusto distinctio quam, ratione delectus
+            obcaecati. At, tempore nostrum.
+          </p>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+    </section>
+    <section class="section__about" id="about">
+      <h2>About Us</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus enim
+        magni dolor earum explicabo quae ipsa mollitia, perspiciatis placeat
+        voluptatum! Doloribus commodi dolorem odit dolorum sequi soluta, ullam
+        neque illum?Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Sint hic fuga ut illo eos, fugiat beatae amet ullam incidunt atque<br /><br />
+        numquam modi similique aspernatur alias cumque cum, provident soluta
+        reprehenderit. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Incidunt repellendus debitis dignissimos quisquam nihil voluptatum fuga,
+        voluptas et ullam. Repellendus recusandae dignissimos voluptatibus
+        placeat fugit est officiis ab praesentium nobis. Lorem ipsum dolor sit
+        amet consectetur adipisicing elit. Ducimus enim magni dolor earum
+        explicabo quae ipsa mollitia, perspiciatis placeat voluptatum! Doloribus
+        commodi dolorem odit dolorum sequi soluta, ullam neque illum?Lorem ipsum
+        dolor sit amet, consectetur adipisicing elit. Sint hic fuga ut illo eos,
+        fugiat beatae amet ullam incidunt atque numquam modi similique
+        aspernatur alias cumque cum, provident soluta reprehenderit. Lorem ipsum
+        dolor sit amet consectetur adipisicing elit. Incidunt repellendus
+        debitis dignissimos quisquam nihil voluptatum fuga, voluptas et ullam.
+        Repellendus recusandae dignissimos voluptatibus placeat fugit est
+        officiis ab praesentium nobis.
+      </p>
+    </section>
+
+    <section class="sectioin__work" id="services">
+      <div class="work-container">
+        <div class="work-imgBx">
+          <img src="./assets/work.jpg" />
+          <img src="./assets/work.jpg" />
+          <img src="./assets/work.jpg" />
+        </div>
+        <h2>Lorem ipsum dolor sit.</h2>
+        <div class="skew">
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur
+            dicta odio culpa rerum, consequatur perspiciatis blanditiis eius! Id
+            dolor modi quia quasi harum saepe aspernatur, hic, nostrum,
+            reprehenderit nam dignissimos?
+          </p>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+      <div class="work-container work-container2">
+        <div class="work-imgBx work-imgBx2">
+          <img src="./assets/work.jpg" />
+          <img src="./assets/work.jpg" />
+          <img src="./assets/work.jpg" />
+        </div>
+        <h2>Lorem ipsum dolor sit.</h2>
+        <div class="skew skew2">
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur
+            dicta odio culpa rerum, consequatur perspiciatis blanditiis eius! Id
+            dolor modi quia quasi harum saepe aspernatur, hic, nostrum,
+            reprehenderit nam dignissimos?
+          </p>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+      <div class="work-container">
+        <div class="work-imgBx">
+          <img src="./assets/work.jpg" />
+          <img src="./assets/work.jpg" />
+          <img src="./assets/work.jpg" />
+        </div>
+        <h2>Lorem ipsum dolor sit.</h2>
+        <div class="skew">
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur
+            dicta odio culpa rerum, consequatur perspiciatis blanditiis eius! Id
+            dolor modi quia quasi harum saepe aspernatur, hic, nostrum,
+            reprehenderit nam dignissimos?
+          </p>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+    </section>
+    <section class="section__team" id="team">
+      <h2>Meet Our Team</h2>
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"></div>
+          <div class="swiper-slide"></div>
+          <div class="swiper-slide"></div>
+          <div class="swiper-slide"></div>
+          <div class="swiper-slide"></div>
+          <div class="swiper-slide"></div>
+          <div class="swiper-slide"></div>
+          <div class="swiper-slide"></div>
+          <div class="swiper-slide"></div>
+          <div class="swiper-slide"></div>
+        </div>
+      </div>
+    </section>
+    <section class="section__form" id="contact">
+      <div class="form">
+        <h2>Contact Us</h2>
+        <div class="input">
+          <div class="inputBox">
+            <label>Name</label>
+            <input type="text" name="" placeholder="Your Name" />
+          </div>
+          <div class="inputBox">
+            <label>Surname</label>
+            <input type="text" name="" placeholder="Your Surname" />
+          </div>
+          <div class="inputBox">
+            <label>Email</label>
+            <input type="email" name="" placeholder="Your Email" />
+          </div>
+          <div class="inputBox">
+            <label>Message</label>
+            <textarea
+              placeholder="Leave a Message"
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+          <div class="btnBox">
+            <a href="#">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              Send Message
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__media">
+      <div class="banner">
+        <video autoplay muted loop>
+          <source src="./assets/video2.mp4" type="video/mp4" />
+        </video>
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-twitter"></i>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-box">
+        <h3>Design & Development by <span>Kamil Jaworski</span></h3>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+    <script src="swiper.min.js"></script>
+    <script>
+      var swiper = new Swiper(".swiper-container", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+          rotate: 10,
+          stretch: 0,
+          depth: 200,
+          modifier: 2,
+          slideShadows: true,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+    </script>
+  </body>
+</html>
